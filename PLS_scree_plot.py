@@ -1,4 +1,4 @@
-# Plotting scree plot for PLS models with an increasing number of latent variables 
+# Function to create scree plot for PLS models with an increasing number of latent variables 
 global pls_dict
 pls_dict = {}
 def PLS_scree(Xc, Yc, Xp, Yp, k, label = 'Objective variable'):
